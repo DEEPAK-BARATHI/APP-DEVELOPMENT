@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Kalnia+Glaze:wght@100..700&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kalnia Glaze', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5; 
+}
+
+.wrapper {
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff; /* Ensure all text is white */
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.wrapper h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #fff; /* Ensure heading text is white */
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff; /* Ensure input text is white */
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #fff; /* Ensure placeholder text is white */
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #fff; /* Ensure icon color is white */
+}
+
+.wrapper button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #333; /* Ensure button text is black for contrast */
+  font-weight: 700;
+}
+
+.wrapper .login-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+  color: #fff; /* Ensure link text is white */
+}
+
+.login-link p a {
+  color: #fff; /* Ensure link text is white */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link p a:hover {
+  text-decoration: underline;
+}
+
+.terms-box {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  color: #fff; /* Ensure terms and conditions text is white */
+}
+
+.terms-box input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.terms-box label {
+  font-size: 0.875rem;
+  color: #fff; /* Ensure label text is white */
+}
+
+.terms-box a {
+  color: #fff; /* Ensure all links are white */
+  text-decoration: none;
+}
+
+.terms-box a:hover {
+  text-decoration: underline;
+}
