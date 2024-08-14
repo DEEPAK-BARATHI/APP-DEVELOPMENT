@@ -1,0 +1,127 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+/* General container style for the entire page */
+.full-page-container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: 'Quicksand', sans-serif; /* Updated font family */
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: lightgray;
+}
+
+/* Hero section styles */
+.hero-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: black;
+  position: relative;
+  background-image: url('./samback.avif'); /* Add your image path here */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+.hero-content {
+  max-width: 50%;
+  text-align: center;
+  padding: 15px; /* Adjusted padding */
+  background: transparent;
+  border-radius: 8px; /* Slightly rounded corners */
+  margin-left: 5%;
+}
+
+.hero-container h1 {
+  font-family: 'Lora', serif; /* Use Lora for headings */
+  font-size: 2.5rem; /* Smaller font size */
+  margin-bottom: 0.75rem;
+}
+
+.section-image2 {
+  max-width: 90%;
+  transition: transform 0.3s ease;
+  height: 80vh; /* Adjusted height */
+  border-radius: 8px;
+  align-self: flex-end;
+}
+
+.hero-container p {
+  font-size: 1.4rem; /* Smaller font size */
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.hero-container .get-started-button {
+  padding: 10px 25px; /* Adjusted padding */
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 6px; /* Slightly rounded corners */
+  font-size: 0.9rem; /* Smaller font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-container .get-started-button:hover {
+  background-color: darkgray;
+  transform: translateY(-2px);
+}
+
+/* Footer styles */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 0; /* Adjusted padding */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  margin: 1rem;
+}
+
+.footer-column h3 {
+  margin-bottom: 0.75rem;
+  font-family: 'Lora', serif; /* Use Lora for footer headings */
+  font-size: 1.25rem; /* Smaller font size */
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #ddd;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem; /* Adjusted padding */
+  border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
